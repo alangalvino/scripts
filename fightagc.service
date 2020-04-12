@@ -1,0 +1,8 @@
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/fightagc
+PIDFile=/tmp/fightagc.pid
+
+[Install]
+WantedBy=multi-user.target
+
