@@ -6,3 +6,6 @@ install:
 	@mkdir -p ~/.config/systemd/user/
 	@cp ./fightagc.service ~/.config/systemd/user/
 	@systemctl --user daemon-reload
+
+enable:
+	@systemctl --user enable fightagc

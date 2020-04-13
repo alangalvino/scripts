@@ -6,4 +6,6 @@ install:
 	@mkdir -p ~/.config/systemd/user/
 	@cp ./font-autoscale.service ~/.config/systemd/user/
 	@systemctl --user daemon-reload
+
+enable:
 	@systemctl --user enable font-autoscale
