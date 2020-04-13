@@ -1,3 +1,3 @@
-# Random Scripts
+# Dumb Scripts
 
-A bucket to organize things I build to solve issues related to Linux, Emacs etc.
+A bunch of dumb scripts to solve Linux minor issues (usually related to user interface) by brute force.
