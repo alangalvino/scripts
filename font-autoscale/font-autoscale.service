@@ -1,0 +1,7 @@
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/font-autoscale
+PIDFile=/tmp/font-autoscale.pid
+
+[Install]
+WantedBy=multi-user.target
