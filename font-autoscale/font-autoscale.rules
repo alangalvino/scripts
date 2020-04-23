@@ -1,0 +1,2 @@
+KERNEL=="card0-DP-2", ACTION=="add", SUBSYSTEM=="drm", RUN+="/usr/local/bin/set-font-scale 1.3"
+KERNEL=="card0-DP-2", ACTION=="remove", SUBSYSTEM=="drm", RUN+="/usr/local/bin/set-font-scale 1.0"
